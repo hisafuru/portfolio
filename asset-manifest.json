@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.223386ba.css",
+    "main.js": "/portfolio/static/js/main.bb1dcbe5.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/iot.jpg": "/portfolio/static/media/iot.39ce7e70fdc6529bc577.jpg",
+    "static/media/tierdrop.png": "/portfolio/static/media/tierdrop.9fe14ec444c08bc9b529.png",
+    "static/media/arcara.jpg": "/portfolio/static/media/arcara.87f215fb472e8c8853ca.jpg",
+    "static/media/gameserver.png": "/portfolio/static/media/gameserver.9db9ce74d567c5403ebf.png",
+    "static/media/icon.webp": "/portfolio/static/media/icon.80db8e3bbf0954885ce2.webp",
+    "index.html": "/portfolio/index.html",
+    "main.223386ba.css.map": "/portfolio/static/css/main.223386ba.css.map",
+    "main.bb1dcbe5.js.map": "/portfolio/static/js/main.bb1dcbe5.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.223386ba.css",
+    "static/js/main.bb1dcbe5.js"
+  ]
+}
