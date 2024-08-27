@@ -30,12 +30,14 @@ function App() {
         </nav>
       </header>
       <main>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/works" element={<Works />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        </BrowserRouter>
       </main>
       <footer className="h-32 p-4 bg-orange-100 text-center text-xs flex flex-col justify-between items-center">
         <button 
