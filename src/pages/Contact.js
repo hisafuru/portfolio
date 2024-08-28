@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm';
 
 function Contact() {
   return (
-    <div className="flex items-center justify-center h-[calc(100vh-190px)]">
+    <div className="flex items-center justify-center h-[calc(100vh-50px)]">
       <div className="text-left max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">Contact</h2>
         <p className="mb-8">This is the Contact page.</p>
