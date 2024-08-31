@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdcdb143.css",
-    "main.js": "/static/js/main.61ead4fa.js",
+    "main.css": "/static/css/main.279b4d29.css",
+    "main.js": "/static/js/main.3c5c0b3b.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/iot.jpg": "/static/media/iot.39ce7e70fdc6529bc577.jpg",
     "static/media/tierdrop.png": "/static/media/tierdrop.9fe14ec444c08bc9b529.png",
@@ -9,12 +9,12 @@
     "static/media/gameserver.png": "/static/media/gameserver.9db9ce74d567c5403ebf.png",
     "static/media/icon.webp": "/static/media/icon.80db8e3bbf0954885ce2.webp",
     "index.html": "/index.html",
-    "main.fdcdb143.css.map": "/static/css/main.fdcdb143.css.map",
-    "main.61ead4fa.js.map": "/static/js/main.61ead4fa.js.map",
+    "main.279b4d29.css.map": "/static/css/main.279b4d29.css.map",
+    "main.3c5c0b3b.js.map": "/static/js/main.3c5c0b3b.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdcdb143.css",
-    "static/js/main.61ead4fa.js"
+    "static/css/main.279b4d29.css",
+    "static/js/main.3c5c0b3b.js"
   ]
 }
