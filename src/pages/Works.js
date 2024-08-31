@@ -8,10 +8,10 @@ import Gameserver from "../assets/gameserver.png";
 
 function Works() {
   return (
-    <div>
-      <h2 className='text-4xl mb-2'>Works</h2>
-      <p className='pb-4'>今までに参加したプロジェクトや個人開発で，公開できるものを記載いたします．</p>
-      <div className="max-w-4xl mx-auto mb-6">
+    <div className='w-10/12 md:max-w-4xl mx-auto '>
+      <h2 className='text-2xl md:text-4xl font-bold mb-2'>Works</h2>
+      <p className='text-sm md:text-sm pb-4'>今までに参加したプロジェクトや個人開発で，公開できるものを記載いたします．</p>
+      <div className="mb-6">
         <Work
             imageUrl={IoT}
             title={'スマート工場化プロジェクト（株式会社yosugara）'}

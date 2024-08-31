@@ -4,10 +4,10 @@ import Icon from "../assets/icon.webp";
 
 const ExperienceItem = ({ year, title, description, top = false }) => (
     <div className={`py-6 border-b border-gray-300 flex items-center ${top ? 'border-t' : ''}`}>
-      <div className="w-1/4 text-lg font-normal flex items-center justify-center">{year}</div>
+      <div className="w-1/4 text-base md:text-lg font-normal flex items-center justify-center">{year}</div>
       <div className="w-3/4">
-        <div className="text-md font-bold pb-2">{title}</div>
-        <div className="text-sm">{description}</div>
+        <div className="text-sm md:text-base font-bold pb-2">{title}</div>
+        <div className="text-[11px] md:text-sm">{description}</div>
       </div>
     </div>
   );
@@ -15,19 +15,19 @@ const ExperienceItem = ({ year, title, description, top = false }) => (
 function About() {
   return (
     <div>
-      <div className="h-screen">
-        <div className="flex justify-center items-center py-40 -ml-32">
-            <div className="bg-orange-600 text-orange-50 pl-1 w-[350px] h-24 -rotate-90 -mr-24 text-xs text-left text-[15px]">
+      <div className="h-96 md:h-screen">
+        <div className="flex justify-center items-center py-10 md:py-40 -ml-10 md:-ml-32">
+            <div className="bg-orange-600 text-orange-50 pl-1 w-[110px] md:w-[350px] h-8 md:h-24 -rotate-90 -mr-8 md:-mr-24 md:text-xs text-left text-[4px] md:text-[15px] leading-1">
                 <p>Development, Research and Innovation.</p>
                 <p>If you want to go fast, go alone. </p>
                 <p>If you want to go far, go together.</p>
                 <p>However, I'll go as far as I can alone</p>
                 <p>on <a href='https://www.youtube.com/watch?v=tIe-kXTmj3E'>the narrow way.</a></p>
             </div>
-            <div className="text-left text-9xl">
-            <p>Kota</p>
-            <p>Hisafuru</p>
-            <p>Portfolio</p>
+            <div className="text-left text-4xl md:text-9xl">
+              <p>Kota</p>
+              <p>Hisafuru</p>
+              <p>Portfolio</p>
             </div>
         </div>
         <p>Scroll</p>
@@ -35,13 +35,13 @@ function About() {
             <SlArrowDown className="text-orange-600 text-4xl" />
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center px-10">
         <a href='https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/57920695457072532059112617018159441295166854042840448471990459835367431340033/' target='_blank' rel='noreferrer'>
-            <img src={Icon} alt="Kota Hisafuru" className="w-56 h-auto rounded-3xl mr-10" />
+            <img src={Icon} alt="Kota Hisafuru" className="w-20 md:w-56 h-auto rounded-xl md:rounded-3xl mr-5 md:mr-10" />
         </a>
-        <div className="max-w-xl text-left">
-          <h2 className="text-4xl font-bold mb-4">Kota Hisafuru</h2>
-          <p className='text-sm text-opacity-80'>
+        <div className="w-3/4 md:max-w-xl text-left">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4">Kota Hisafuru</h2>
+          <p className='text-[11px] md:text-sm text-opacity-80'>
             久古 幸汰（Kota Hisafuru）<br />
             1999年生まれ，埼玉県横瀬町出身．<br />
             大学時代の起業と研究の経験を経て，現在はITエンジニアとして働きながら個人開発を行っています．
@@ -51,7 +51,7 @@ function About() {
         </div>
       </div>
       <div className="mt-20 px-10 text-left max-w-4xl mx-auto pb-32">
-        <h2 className="text-4xl font-bold mb-4 text-center">Experience</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Experience</h2>
         <ExperienceItem 
           year="2021 ~ 2023" 
           title="株式会社yosugara" 

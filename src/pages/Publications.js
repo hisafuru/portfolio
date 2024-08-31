@@ -4,9 +4,9 @@ import Section from '../components/Section';
 
 function Publications() {
   return (
-    <div className="text-left max-w-4xl mx-auto publications">
-      <h2 className="text-2xl font-bold mb-4">研究業績</h2>
-      <p className="mb-8">研究や特許に関する業績を記載します．</p>
+    <div className="text-left w-10/12 md:max-w-4xl mx-auto publications">
+      <h2 className="text-xl md:text-2xl font-bold mb-4">研究業績</h2>
+      <p className="mb-8 text-sm md:text-base">研究や特許に関する業績を記載します．</p>
   
       <Section 
         title="論文誌 (査読付)" 

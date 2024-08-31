@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="App bg-orange-50 text-orange-600">
       <header className="p-4 flex justify-between items-center">
-        <p className="text-xl font-bold"><Link to="/">Kota Hisafuru</Link></p>
+        <p className="text-sm md:text-xl font-bold"><Link to="/">Kota Hisafuru</Link></p>
         <nav>
-          <ul className="flex space-x-4">
+          <ul className="flex text-xs md:text-xl space-x-2 md:space-x-4">
             <li><Link to="/">About</Link></li>
             <li><Link to="/works">Works</Link></li>
             <li><Link to="/publications">Publications</Link></li>
