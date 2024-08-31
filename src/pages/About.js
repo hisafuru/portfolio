@@ -55,7 +55,7 @@ function About() {
         <ExperienceItem 
           year="2021 ~ 2023" 
           title="株式会社yosugara" 
-          description="友人：沢井宇宙と共に株式会社yosugaraを設立．IoTとIT技術を活用し，夜すがら(yosugara,夜通し)製造業をサポートするためのスマート工場化プロジェクトに従事．その他，ECサイトの設立等に従事し，Web開発を中心とした様々なIT技術を習得．"
+          description="友人：沢井宇宙と共に株式会社yosugaraを設立．IoTとIT技術を活用し，夜すがら(yosugara,夜通し)製造業をサポートするためのスマート工場化プロジェクトに従事．その他，ECサイトの設立等を経て，Web開発を中心とした様々なIT技術を習得．"
           top={true}
         />
         <ExperienceItem 
@@ -66,7 +66,7 @@ function About() {
         <ExperienceItem 
           year="2024 ~ " 
           title="IT企業入社" 
-          description="アジャイル開発を中心にサービス開発を行うIT企業に入社．フルスタックにWeb開発を中心に行いつつ，生成AIなど最新技術を活用したサービスを思案中．また，アジャイル開発により柔軟かつ迅速にクライアントの要望に答えるためのスキルを習得中．" 
+          description="アジャイル開発を中心にサービス開発を行うIT企業に入社．フルスタックなWeb開発を中心に行いつつ，生成AIなど最新技術を活用したサービスを思案中．また，アジャイル開発により柔軟かつ迅速にクライアントの要望に答えるためのスキルを習得中．" 
         />
       </div>
     </div>
