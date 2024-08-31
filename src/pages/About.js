@@ -15,7 +15,7 @@ const ExperienceItem = ({ year, title, description, top = false }) => (
 function About() {
   return (
     <div>
-      <div className="h-96 md:h-screen">
+      <div className="h-96 md:h-screen md:min-h-[800px]">
         <div className="flex justify-center items-center py-10 md:py-40 -ml-10 md:-ml-32">
             <div className="bg-orange-600 text-orange-50 pl-1 w-[110px] md:w-[350px] h-8 md:h-24 -rotate-90 -mr-8 md:-mr-24 md:text-xs text-left text-[4px] md:text-[15px] leading-1">
                 <p>Development, Research and Innovation.</p>
